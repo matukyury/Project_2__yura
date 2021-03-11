@@ -1,0 +1,94 @@
+@import "./main/reset";
+
+html {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 400;
+  }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}  
+
+.header {
+    background-image: url(../imgs/header.jpg) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+    &__content {
+        text-align: center;
+    }
+    
+    &__text {
+
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFF;
+        margin-top: 200px;
+    }
+    
+    &__title {
+
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFF;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+ 
+
+    &__top {
+        
+    }
+}
+
+.header__btn {
+    text-align: center;
+
+}
+    
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #4985FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+           
+} 
+
+
+.nav {
+
+    &__list {
+        margin-left: auto;
+    } 
+
+    &__item {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;    
+    }
+
+
+    &__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+    
+    }
+} 
+
+

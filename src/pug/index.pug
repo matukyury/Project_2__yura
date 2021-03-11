@@ -1,0 +1,28 @@
+extends layout/layout
+
+block vars
+    - var pageTitle = 'Главная страница'
+    - var pageBodyClass = 'homepage'
+    - var pageHeaderClass = ''
+
+block content
+    section.header
+        .container
+            .hedaer__top 
+                nav.nav
+                    ul.nav__list
+                        li.nav__item
+                            a.nav__link(href="#") Главная
+                        li.nav__item
+                            a.nav__link(href="#") Наши проекты
+                        li.nav__item
+                            a.nav__link(href="#") Услуги
+                        li.nav__item
+                            a.nav__link(href="#") Новости
+                        li.nav__item
+                            a.nav__link(href="#") Контакты
+            .header__content
+                p.header__text Передовая IT студия
+                h1.header__title Мы создаем легкие решения сложных задач и проблем
+                .header__btn
+                    a(href="#").btn Наши проекты
