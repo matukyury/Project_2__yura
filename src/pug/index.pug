@@ -26,3 +26,49 @@ block content
                 h1.header__title Мы создаем легкие решения сложных задач и проблем
                 .header__btn
                     a(href="#").btn Наши проекты
+    section.second
+        .container
+            .second__top
+                h2.second__title Мы создаем мобильные приложения для крупных корпораций
+                p.second__text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. 
+            .plans
+                .plans__inner
+                    mixin plan()                
+                        .plan
+                            .plan__logo
+                                .plan__circle1
+                                    .plan__circle2
+                                        .plan__img-wrap
+                                            img.plan__img(src="../assets/imgs/project.svg")
+                            .plan__content        
+                                .plan__title Создание сайтов
+                                .plan__text Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                    +plan()
+                    +plan()
+                    +plan()
+                .second__btn
+                    a(href="#").btn Все услуги
+    .development
+        .container
+            .development__about
+                .development__content
+                    h2.development__title Высокие стандарты разработки
+                    p.development__text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. 
+                    a(href="#").development__link Подробнее о компании
+                .development__img-wrap 
+                    img.development__img(src="../assets/imgs/standarts.jpg")
+            .line
+            .projects 
+                .projects__inner
+                    mixin project()                  
+                        .project
+                            .project__img-wrap 
+                                img.project__img(src="../assets/imgs/web-programming.svg")
+                                .project__count 125
+                            p.project__text Our projects
+                    +project()
+                    +project()
+                    +project()
+                    +project()
+                    +project()
+                                       
