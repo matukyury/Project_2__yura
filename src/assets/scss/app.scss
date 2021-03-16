@@ -294,3 +294,176 @@ margin-bottom: 100px;
             
         }
     }
+
+.works {
+    background: linear-gradient(to bottom, #504DC2 20%, #5F12D0 55%,  #FFF 40%, );
+    padding: 100px 0 85px;
+
+    &__background {}
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+}
+
+
+   
+
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        color: #FFF;
+        max-width: 50%;
+        
+    }
+
+    &__btn {}
+
+}
+
+.presents {
+   
+    
+    &__inner {
+        display: flex;        
+    }
+      
+}
+
+.present {
+    padding-right: 35px;
+    &__img-wrap {}
+
+    &__img {}
+
+    &__title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #999;
+      }
+
+    &__link {
+    display: inline-block;
+    padding-top: 15px;
+    margin-bottom: 70px;
+    color: #4985FF;
+        }
+}
+
+.colortext {
+    color: #4985FF;
+    }
+
+.our-projects {
+    background: #F6F6F8;
+    padding: 100px 0 120px;
+
+    &__inner {
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        color: #000;
+    }
+
+    &__text {
+        padding-top: 50px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999;
+        max-width: 730px;
+        align-items: center;
+        display: inline-flex;
+    }
+
+    &__photos {
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__img-wrap {}
+
+    &__img {}
+
+    &__btn {
+        padding-top: 50px;
+    }
+}  
+
+.video {
+    background-image: url(../imgs/Rectangle.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+
+    &__inner {
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 70px;
+    }
+
+    &__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 30px;
+    }
+
+    &__img-wrap {
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__img {}
+
+    &__btn {
+        position: absolute;
+        padding-left: 50px;
+        padding-bottom: 150px;
+        
+    }
+    
+}
+
+
+
+.btn-2 {
+    display: inline-block;
+    padding: 40px 60px;
+    background: #4985FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #fff;   
+    max-width: 300px;
+    
+    
+    }

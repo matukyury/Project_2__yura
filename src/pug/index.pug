@@ -72,3 +72,48 @@ block content
                     +project()
                     +project()
                                        
+    .works
+        .works__background
+            .container 
+                .works__top
+                    h2.works__title Наши работы, на которых мы специализируемся
+                    .works__btn
+                        a(href="#").btn Все услуги
+                .presents
+                    .presents__inner
+                        mixin present()
+                            .present
+                                .present__img-wrap 
+                                    img.present__img(src="../assets/imgs/present.png")
+                                p.present__title <span class="colortext">01. </span> Исследование и упаковка
+                                p.present__text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                                a(href="#").present__link Подробнее
+                        +present()
+                        +present()
+                        +present()
+                    .line
+    .our-projects 
+        .container
+            .our-projects__inner
+                h2.our-projects__title Наши проекты
+                p.our-projects__text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. 
+                .our-projects__photos
+                    .our-projects__img-wrap
+                        img.our-projects__img(src="../assets/imgs/project-photo.png")
+                    .our-projects__img-wrap
+                        img.our-projects__img(src="../assets/imgs/project-photo.png")
+                    .our-projects__img-wrap
+                        img.our-projects__img(src="../assets/imgs/project-photo.png")
+                    .our-projects__img-wrap
+                        img.our-projects__img(src="../assets/imgs/project-photo.png")                                                                                   
+                .our-projects__btn
+                    a(href="#").btn Все проекты
+    .video
+        .container 
+            .video__inner 
+                h2.video__title Видео о нашей работе
+                p.video__text Просто посмотрите, как мы работаем
+            .video__img-wrap 
+                img.video__img(src="../assets/imgs/Rectangle 2.jpg")
+            .video__btn
+                a(href="#").btn-2 Смотреть видео
